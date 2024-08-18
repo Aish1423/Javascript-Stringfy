@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a1 = [32,45,22,58,67,32,67] //type object
+        console.log("a1= ",a1, "type of a1",typeof a1 );
+
+        var s1 = JSON.stringify(a1) //string type
+        console.log('s1=', s1, 'type of s1', typeof s1);
+
+        var a2 = JSON.parse(s1)
+        console.log("a2 = ",a2, "type of a2", typeof a2);
+
+        
+    </script>
+</body>
+</html>
